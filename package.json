@@ -1,0 +1,32 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/locationify/issues"
+  },
+  "dependencies": {
+    "through2": "^0.6.3"
+  },
+  "description": "Substitute window.location values with the url you provide.",
+  "devDependencies": {
+    "browserify": "^7.0.3",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  },
+  "keywords": [
+    "browserify",
+    "location",
+    "window"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "locationify",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/locationify.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "version": "1.0.0"
+}
