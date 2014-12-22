@@ -22,7 +22,7 @@ bundle:
 Motivation
 ----------
 
-Have scripts running off the filesystem return window.location values as though the script was being served by the server. eg. Compile an application returned by a webserver into a phonegap app.
+Have scripts running off the filesystem return `window.location` values as though the script was being served by the server. eg. When compiling an application returned by a webserver into a phonegap app.
 
 Usage
 -----
