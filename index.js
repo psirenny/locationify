@@ -2,8 +2,9 @@ var through = require('through2');
 var url = require('url');
 var util = require('util');
 
-module.exports = function (href) {
-  var parsed = url.parse(href);
+module.exports = function (options) {
+  if (typeof options === 'string') options = {url: options};
+  var parsed = url.parse(options.url);
   return function () {
     return through(function (buf, enc, next) {
       var code = buf.toString('utf8');
